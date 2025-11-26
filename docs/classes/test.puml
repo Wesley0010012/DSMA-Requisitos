@@ -1,0 +1,15 @@
+@startuml "Teste"
+
+abstract class Test {
+    - value: Number
+
+    + test(): Void
+}
+
+class A  {
+
+}
+
+A -|> Test
+
+@enduml
