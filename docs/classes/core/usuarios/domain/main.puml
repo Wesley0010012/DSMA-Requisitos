@@ -1,0 +1,15 @@
+@startuml "Domínio - Módulo de Usuários"
+
+abstract IntIdEntity
+class Email
+
+class Usuario {
+    - email: Email
+    - senha: String
+}
+
+Usuario --|> IntIdEntity
+
+Usuario o-- Email
+
+@enduml
