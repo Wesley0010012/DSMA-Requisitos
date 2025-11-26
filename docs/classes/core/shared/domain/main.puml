@@ -1,0 +1,14 @@
+@startuml "Domínio - Módulo Compartilhado"
+
+abstract class "Entity<T>" as EntityT <<abstract>> {
+    - id: T
+    - active: Boolean
+    - createdAt: Date
+    - updatedAt: Date
+}
+
+abstract class IntIdEntity
+
+IntIdEntity --|> EntityT : Entity<Long>
+
+@enduml
