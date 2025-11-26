@@ -1,0 +1,11 @@
+@startuml "Domínio - Módulo de Permissões"
+
+abstract class IntIdEntity
+
+class Permissao {
+    - assinatura: String
+    - nome: String
+    - definicao: String
+}
+
+Permissao --|> IntIdEntity
