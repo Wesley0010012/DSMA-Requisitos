@@ -9,6 +9,10 @@ abstract class "Entity<T>" as EntityT <<abstract>> {
 
 abstract class IntIdEntity
 
+class Email {
+    - endereco: String
+}
+
 IntIdEntity --|> EntityT : Entity<Long>
 
 @enduml
