@@ -1,0 +1,32 @@
+@startuml "Domínio - Módulo de Clientes"
+
+abstract class IntIdEntity
+class Email
+abstract class Telefone
+abstract class Endereco
+
+class Cliente {
+    - nome: String
+    - email: Email
+}
+
+class TelefoneCliente {
+    - cliente: Cliente
+}
+
+class EnderecoCliente {
+    - cliente: Cliente
+}
+
+Cliente --|> IntIdEntity
+
+TelefoneCliente --|> Telefone
+EnderecoCliente --|> Endereco
+
+Cliente "1" o-- "1" Email
+TelefoneCliente "1" o-- "1" Cliente
+EnderecoCliente "1" o-- "1" Cliente
+
+
+
+@enduml
