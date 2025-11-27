@@ -13,6 +13,21 @@ class Email {
     - endereco: String
 }
 
+class TipoTelefone {
+    - categoria: String
+}
+
+abstract class Telefone {
+    - ddd: String
+    - numero: String
+    - tipo: TipoTelefone
+}
+
 IntIdEntity --|> EntityT : Entity<Long>
+Telefone --|> IntIdEntity
+TipoTelefone --|> IntIdEntity
+
+Telefone o-- TipoTelefone
+
 
 @enduml
