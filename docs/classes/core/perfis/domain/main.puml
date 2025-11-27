@@ -1,0 +1,15 @@
+@startuml "Domínio - Módulo de Perfils"
+
+abstract class IntIdEntity
+class Permissao
+
+class Perfil {
+    - nome: String
+    - definicao: String
+    - permissoes: Permissao[]
+}
+
+Perfil --|> IntIdEntity
+Perfil "1" o-- "*" Permissao
+
+@enduml
