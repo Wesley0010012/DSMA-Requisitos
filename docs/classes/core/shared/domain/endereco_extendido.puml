@@ -1,0 +1,48 @@
+@startuml "Diagrama de Classes de Exemplo - Endereço Extendido"
+
+abstract class IntIdEntity
+
+abstract class RegiaoGeografica {
+    - toponimo: String
+}
+
+class Pais
+
+class Estado {
+    - pais: Pais
+}
+
+class Cidade {
+    - estado: Estado
+}
+
+class Cep {
+    - codigo: String
+    - cidade: Cidade
+}
+
+class Endereco {
+    - endereco: Cep[]
+    - logradouro: String
+    - logradouro: String
+    - numero: String
+    - complemento: String
+    - bairro: String
+}
+
+RegiaoGeografica --|> IntIdEntity
+
+Pais --|> RegiaoGeografica
+Estado --|> RegiaoGeografica
+Cidade --|> RegiaoGeografica
+Cep --|> IntIdEntity
+Endereco --|> IntIdEntity
+
+Estado "*" o-- "1" Pais
+Cidade "*" o-- "1" Estado
+Cep "*" o-- "1" Cidade
+Endereco "1" o-- "*" Cep
+
+
+
+@enduml
