@@ -33,6 +33,40 @@ abstract class Endereco {
     - bairro: String
 }
 
+abstract class MetodoPagamento {
+    - id: Long
+    - apelido: String
+    - dataCadastro: Date
+}
+
+enum TipoChavePix {
+    CPF
+    CNPJ
+    EMAIL
+    TELEFONE
+    ALEATORIA
+}
+
+enum Bandeira {
+    VISA
+    MASTERCARD
+    ELO
+    AMEX
+    HIPERCARD
+}
+
+class CartaoCredito {
+    - numeroMascarado: String
+    - bandeira: Bandeira
+    - validade: String
+    - token: String
+}
+
+class ChavePix {
+    - chave: String
+    - tipoChave: TipoChavePix
+}
+
 Endereco --|> IntIdEntity
 
 IntIdEntity --|> EntityT : Entity<Long>
@@ -40,6 +74,15 @@ Telefone --|> IntIdEntity
 TipoTelefone --|> IntIdEntity
 
 Telefone o-- TipoTelefone
+
+MetodoPagamento --|> IntIdEntity
+
+ChavePix --|> MetodoPagamento
+
+CartaoCredito --|> MetodoPagamento
+
+CartaoCredito -- Bandeira
+ChavePix -- TipoChavePix
 
 
 @enduml
