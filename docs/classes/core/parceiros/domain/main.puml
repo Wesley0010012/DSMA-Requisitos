@@ -1,0 +1,33 @@
+@startuml "Domínio - Módulo de Parceiros"
+
+abstract class IntIdEntity
+class Email
+abstract class Telefone
+abstract class Endereco
+
+class Parceiro {
+    - id: Long
+    - nome: String
+    - cnpj: String
+    - telefone: String
+    - email: Email
+}
+
+class EnderecoParceiro {
+    - parceiro: Parceiro
+}
+
+class TelefoneParceiro {
+    - parceiro: Parceiro
+}
+
+Parceiro --|> IntIdEntity
+TelefoneParceiro --|> Telefone
+
+Parceiro "1" o-- "1" "Email"
+TelefoneParceiro "*" o-- "1" Parceiro
+
+EnderecoParceiro --|> Endereco
+EnderecoParceiro "*" o-- "1" Parceiro
+
+@enduml
