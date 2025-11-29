@@ -1,0 +1,33 @@
+@startuml "Domínio - Módulo de Fornecedores"
+
+abstract class IntIdEntity
+class Email
+abstract class Telefone
+abstract class Endereco
+
+class Fornecedor {
+    - id: Long
+    - nome: String
+    - cnpj: String
+    - telefone: String
+    - email: Email
+}
+
+class TelefoneFornecedor {
+    - fornecedor: Fornecedor
+}
+
+class EnderecoFornecedor {
+    - fornecedor: Fornecedor
+}
+
+Fornecedor --|> IntIdEntity
+TelefoneFornecedor --|> Telefone
+
+Fornecedor "1" o-- "1" "Email"
+TelefoneFornecedor "*" o-- "1" Fornecedor
+
+EnderecoFornecedor --|> Endereco
+EnderecoFornecedor "*" o-- "1" Fornecedor
+
+@enduml
