@@ -4,6 +4,8 @@ abstract class IntIdEntity
 class Email
 abstract class Telefone
 abstract class Endereco
+abstract class CartaoCredito
+abstract class ChavePix
 
 class Cliente {
     - nome: String
@@ -18,15 +20,27 @@ class EnderecoCliente {
     - cliente: Cliente
 }
 
+class CartaoCreditoCliente {
+    - cliente: Cliente
+}
+
+class ChavePixCliente {
+    - cliente: Cliente
+}
+
 Cliente --|> IntIdEntity
 
 TelefoneCliente --|> Telefone
 EnderecoCliente --|> Endereco
 
 Cliente "1" o-- "1" Email
-TelefoneCliente "1" o-- "1" Cliente
-EnderecoCliente "1" o-- "1" Cliente
+TelefoneCliente "*" o-- "1" Cliente
+EnderecoCliente "*" o-- "1" Cliente
 
+ChavePixCliente --|> ChavePix
+CartaoCreditoCliente --|> CartaoCredito
 
+ChavePixCliente "*" o-- "1" Cliente
+CartaoCreditoCliente "*" o-- "1" Cliente
 
 @enduml
