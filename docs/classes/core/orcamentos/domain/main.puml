@@ -1,0 +1,15 @@
+@startuml "Domínio - Módulo de Orçamentos"
+
+abstract class IntIdEntity {}
+
+class Atividade
+
+class Orcamento {
+    - valor: Double
+    - atividade: Atividade
+}
+
+Orcamento --|> IntIdEntity
+Orcamento "*" o-- "1" Atividade
+
+@enduml
