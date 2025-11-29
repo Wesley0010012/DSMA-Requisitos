@@ -10,7 +10,14 @@ class Etapa {
     - atividade: Atividade
 }
 
+class RelatorioEtapa {
+    - etapa: Etapa
+}
+
 Etapa --|> IntIdEntity
 Etapa "*" o-- "1" Atividade
+
+RelatorioEtapa --|> IntIdEntity
+RelatorioEtapa "1" o-- "1" Etapa
 
 @enduml
