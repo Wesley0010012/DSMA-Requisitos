@@ -1,0 +1,16 @@
+@startuml "Domínio - Módulo de Etapas"
+
+abstract class IntIdEntity
+
+class Atividade
+
+class Etapa {
+    - descricao: String
+    - ordem: Long
+    - atividade: Atividade
+}
+
+Etapa --|> IntIdEntity
+Etapa "*" o-- "1" Atividade
+
+@enduml
