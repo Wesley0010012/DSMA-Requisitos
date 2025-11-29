@@ -1,0 +1,19 @@
+@startuml "Domínio - Módulo de Amostras"
+
+abstract class IntIdEntity
+
+class Matriz {
+    - identificacao: String
+    - assinatura: String
+}
+
+class Amostra {
+    - identificacao: String
+    - assinatura: String
+}
+
+Amostra --|> IntIdEntity
+Amostra "1" o-- "*" Matriz
+Matriz --|> IntIdEntity
+
+@enduml
