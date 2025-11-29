@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E071DC7D-7A60-1C8E-6E58-7B0C7540E370" name="ORCAMENTO">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:12:30 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OCM_ID" id="04BF7204-9BEF-B9A6-5E5B-08BDCD2DF297">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 01:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO ORÇAMENTO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCM_VALOR" id="F1F816E4-CFED-262B-BF00-1DDB5A103BC3">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:59:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR DO ORÇAMENTO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCM_ATIVO" id="F4F8C7EB-158E-31D8-A894-FE11FAC486DF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:59:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO ORÇAMENTO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCM_CRIADO_EM" id="EC5285BF-2202-71B1-B36B-9CD24B5A8307">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:59:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO ORÇAMENTO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCM_ATUALIZADO_EM" id="53AF8BCB-B38F-A4A5-5983-99E99B5EA1E7">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 01:00:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO ORÇAMENTO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATV_ID" id="246E6059-AFEE-8D4F-1B79-2A9E1B9704B8">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:58:24 UTC</createdTime>
+<generatorID>19F2CBFA-0EC5-860E-380C-90295A5A74F2</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<referedAttribute>83AEA056-6138-778B-EE8A-3E329583D40D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF8930F3-9917-95DA-4C20-DC9B45BB5FBD" name="ORCAMENTO PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 01:00:39 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04BF7204-9BEF-B9A6-5E5B-08BDCD2DF297</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

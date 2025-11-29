@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2590654-A48F-A824-4FC5-CA5AB7EE3A1C" name="RELATORIO_ETAPA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 01:07:11 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REP_ID" id="30183936-0FEC-C6C9-3A71-5D0F3B191CF6">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:08:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO RELATÓRIO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REP_CAMINHO" id="2B67AC26-0087-0AB7-BF4E-116DDDF8549F">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:08:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[CAMINHO DE RECURSO DO RELATÓRIO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REP_ATIVO" id="F044BF27-6009-7370-03B2-5C3F5203EBD1">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:09:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO RELATÓRIO DE ETAPA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REP_CRIADO_EM" id="62708093-7004-604A-4DDA-2C64F379457D">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:09:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO RELATÓRIO DE ETAPA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REP_ATUALIZADO_EM" id="7928EF4C-36EF-3B9F-E0F5-B2D450A126D6">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:09:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO RELATÓRIO DE ETAPA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ETP_ID" id="36F9A293-CB2D-5727-D6AF-32C7EA4D2470">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 01:25:59 UTC</createdTime>
+<generatorID>21257155-936A-CC2E-AE78-5EBF99B63485</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<referedAttribute>3F77CB2D-1AD0-53D5-F84A-335014DFC6AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33B4DD4B-37FF-F871-6BA4-AB7CD9716BC0" name="RELATÓRIO DE ETAPA PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:08:30 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30183936-0FEC-C6C9-3A71-5D0F3B191CF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

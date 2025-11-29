@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBFA41AD-159A-1F8A-795B-005FF1AAA529" name="AMOSTRA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:12:11 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AMT_ID" id="AA500EBC-2223-60EF-25EB-EF27BC0E1F6B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:43:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DA AMOSTRA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMT_IDENTIFICACAO" id="DD1DF011-4E2E-6959-980E-3A0CB37CF80D">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:11:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICAÇÃO DA AMOSTRA
+]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMT_ASSINATURA" id="4E167A28-A3DE-2CF6-056D-508E97B6046D">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:43:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[ASSINATURA DA AMOSTRA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMT_ATIVO" id="3719BD10-A254-38F0-6FF9-F97F1CF4D1B0">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:43:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DA AMOSTRA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMT_CRIADO_EM" id="61889C8F-4EC6-41BA-1782-B0B11B0AC2C2">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:46:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DA AMOSTRA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMT_ATUALIZADO_EM" id="AEFE749A-B021-EE75-C6AA-7FC9782341A7">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:46:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DA AMOSTRA]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E745D115-1115-3C9E-EB7E-5F24263E22D8" name="AMOSTRA PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:43:48 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA500EBC-2223-60EF-25EB-EF27BC0E1F6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

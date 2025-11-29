@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638BBEA7-D532-D526-A8E7-9FECAFBE5525" name="SERVICO">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:09:58 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SVC_ID" id="3B8EB93A-628B-8526-90A0-AE441F1F81F2">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:10:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO SERVIÇO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SVC_ORDEM" id="610B8C2E-6D59-7C33-EBDD-9A54C81E9B27">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:10:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA ORDEM DE SERVIÇO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SVC_ATIVO" id="76885DEB-50FD-4672-25AE-69812228DEF6">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:10:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO SERVIÇO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SVC_CRIADO_EM" id="C280D6D2-D451-FD99-F695-7A40E0B2E1ED">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:10:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO SERVIÇO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SVC_ATUALIZADO_EM" id="93A59C8E-86B3-229E-F5C9-456564EE89D1">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 21:10:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO SERVIÇO]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLI_ID" id="2C822759-01C0-2015-7AD2-6A122FD58DFC">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 02:14:51 UTC</createdTime>
+<generatorID>A4D01EFE-9775-8661-F649-0F28BDF1CDC5</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<referedAttribute>812E0298-FAF0-E5FA-9823-9DC1AADB96FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

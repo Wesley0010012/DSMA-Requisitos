@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB3B59F3-CABE-2574-A8A8-23AC56DF2E99" name="PERFIL">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-27 01:29:28 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRF_ID" id="9235E9ED-E0B9-4E5D-71FF-F5D22F974B65">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-27 01:34:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO PERFIL
+]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRF_NOME" id="58384320-BCE2-E47A-F584-7F1D5608A541">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-27 01:35:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DO PERFIL
+]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRF_ATIVO" id="31E2637A-90D0-755C-420E-32759C9B77CC">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 20:25:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO PERFIL]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRF_CRIADO_EM" id="0B31BA28-B530-80C2-D57F-DA467682C028">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 20:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO PERFIL]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRF_ATUALIZADO_EM" id="4D778332-0E0B-6776-191F-BFFF535E9EC3">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 20:25:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO PERFIL]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_ID" id="8E84C6DF-7202-3079-83A3-EDB55F48E7C8">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-28 20:25:34 UTC</createdTime>
+<generatorID>47EF1D12-3D62-4272-7ECA-26AD3C846410</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<referedAttribute>7A28A70C-FD92-C055-9AD7-4FDD2D27EB76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D88EE88D-0004-0D54-7AA9-2A5611563391" name="PERFIL PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 00:40:55 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9235E9ED-E0B9-4E5D-71FF-F5D22F974B65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
