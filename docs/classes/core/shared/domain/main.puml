@@ -18,10 +18,22 @@ class TipoTelefone {
 }
 
 abstract class Telefone {
-    - ddd: String
     - numero: String
     - tipo: TipoTelefone
 }
+
+abstract class Endereco {
+    - pais: String
+    - estado: String
+    - cidade: String
+    - codigoPostal: String
+    - logradouro: String
+    - numero: String
+    - complemento: String
+    - bairro: String
+}
+
+Endereco --|> IntIdEntity
 
 IntIdEntity --|> EntityT : Entity<Long>
 Telefone --|> IntIdEntity
