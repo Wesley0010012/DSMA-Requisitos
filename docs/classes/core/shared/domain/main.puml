@@ -67,6 +67,14 @@ abstract class ChavePix {
     - tipoChave: TipoChavePix
 }
 
+class UnidadeMedida {
+    - id: Long
+    - nome: String
+    - sigla: String
+    - fatorConversao: Double
+    - ativa: Boolean
+}
+
 Endereco --|> IntIdEntity
 
 IntIdEntity --|> EntityT : Entity<Long>
@@ -83,6 +91,8 @@ CartaoCredito --|> MetodoPagamento
 
 CartaoCredito -- Bandeira
 ChavePix -- TipoChavePix
+
+UnidadeMedida --|> IntIdEntity
 
 
 @enduml
