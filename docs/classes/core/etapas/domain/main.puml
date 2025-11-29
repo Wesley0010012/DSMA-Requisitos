@@ -12,6 +12,7 @@ class Etapa {
 
 class RelatorioEtapa {
     - etapa: Etapa
+    - caminhoRelatorio: String
 }
 
 Etapa --|> IntIdEntity
