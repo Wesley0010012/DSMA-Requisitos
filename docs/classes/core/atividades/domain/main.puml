@@ -1,0 +1,16 @@
+@startuml "Domínio - Módulo de Atividades"
+
+abstract class IntIdEntity
+
+class Servico
+class Amostra
+
+class Atividade {
+    - assinatura: String
+    - servico: Servico
+    - amostra: Amostra[]
+}
+
+Atividade --|> IntIdEntity
+Atividade "*" o-- "1" Servico
+Atividade "*" o-- "*" Amostra
