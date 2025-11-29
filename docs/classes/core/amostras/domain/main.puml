@@ -10,6 +10,7 @@ class Matriz {
 class Amostra {
     - identificacao: String
     - assinatura: String
+    - matrizes: Matriz[]
 }
 
 Amostra --|> IntIdEntity
