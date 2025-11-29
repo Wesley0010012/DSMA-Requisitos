@@ -9,6 +9,7 @@ class Atividade {
     - assinatura: String
     - servico: Servico
     - amostra: Amostra[]
+    - concluido: Boolean
 }
 
 Atividade --|> IntIdEntity
