@@ -1,0 +1,41 @@
+@startuml "Exemplo - Método de Pagamento Extendido"
+
+abstract class IntIdEntity
+
+abstract class MetodoPagamento {
+    - id: Long
+    - apelido: String
+    - dataCadastro: Date
+}
+
+class TipoChavePix {
+    - nome: String
+}
+
+class Bandeira {
+    - nome: String
+}
+
+class CartaoCredito {
+    - numeroMascarado: String
+    - bandeira: Bandeira
+    - validade: String
+    - token: String
+}
+
+class ChavePix {
+    - chave: String
+    - tipoChave: TipoChavePix
+}
+
+MetodoPagamento --|> IntIdEntity
+CartaoCredito --|> MetodoPagamento
+ChavePix --|> MetodoPagamento
+
+TipoChavePix --|> IntIdEntity
+Bandeira --|> IntIdEntity
+
+CartaoCredito "*" o-- "1" Bandeira
+ChavePix "*" o-- TipoChavePix
+
+@enduml
