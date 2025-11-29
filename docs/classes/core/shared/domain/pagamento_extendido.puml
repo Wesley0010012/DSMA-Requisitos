@@ -16,14 +16,14 @@ class Bandeira {
     - nome: String
 }
 
-class CartaoCredito {
+abstract class CartaoCredito {
     - numeroMascarado: String
     - bandeira: Bandeira
     - validade: String
     - token: String
 }
 
-class ChavePix {
+abstract class ChavePix {
     - chave: String
     - tipoChave: TipoChavePix
 }
