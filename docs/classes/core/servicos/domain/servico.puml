@@ -1,0 +1,16 @@
+@startuml "Domínio - Módulo de Serviços"
+
+abstract class IntIdEntity {}
+
+class Cliente
+
+class Servico {
+    - numeroOrdem: String
+    - cliente: Cliente
+}
+
+Servico --|> IntIdEntity
+
+Servico o-- "Cliente"
+
+@enduml
