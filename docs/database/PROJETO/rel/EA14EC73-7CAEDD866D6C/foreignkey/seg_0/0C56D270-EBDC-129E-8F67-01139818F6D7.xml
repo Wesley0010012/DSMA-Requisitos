@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C56D270-EBDC-129E-8F67-01139818F6D7" containerWithKeyObject="B0F93A45-7C1D-FF3E-A139-3E37428BCB47" localFKIndex="3CBD0B39-75AA-FAD7-1C90-C4CB69F01DF0" name="TELEFONE_PARCEIRO_PARCEIROS_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>2EC02FEF-4620-4C36-3928-F3E819C1BE28</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>PARCEIROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D575BFA9-9A72-3CCF-1751-D9380126C0AC</referredTableID>
+<keyObject>A8AB053B-1A2A-8792-F1EF-CE132F43C520</keyObject>
+<referredKeyID>A8AB053B-1A2A-8792-F1EF-CE132F43C520</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PARCEIROS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

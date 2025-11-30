@@ -11,7 +11,7 @@
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>8B815EF2-0BF4-768C-30A6-835C4C2BFC98</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>DB3B59F3-CABE-2574-A8A8-23AC56DF2E99</targetEntity>

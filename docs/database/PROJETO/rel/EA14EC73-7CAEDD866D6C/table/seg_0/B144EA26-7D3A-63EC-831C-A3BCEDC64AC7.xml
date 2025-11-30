@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B144EA26-7D3A-63EC-831C-A3BCEDC64AC7" name="Relation_29">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_TELEFONE_TPT_ID" id="139575FB-0EF7-BA2E-230C-411D1489FA8F">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BBC4BDD-F3BC-6E3C-D634-90FC3FFB2CC5" referredColumn="BF8EA0BC-5FC7-1514-C81F-9C9D5B5678F4"/>
+</associations>
+</Column>
+<Column name="TELEFONE_FORNECEDOR_TLC_ID" id="77263195-8924-A448-0230-11D04A20F107">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E9AD0EB-6FB4-76B9-D51E-2C8550C68193" referredColumn="541BF21B-FE5B-A9E9-42C0-9EBC591977B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="782DD574-CC5F-B1C6-EA74-1871638A4B05" name="Relation_29_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="139575FB-0EF7-BA2E-230C-411D1489FA8F"/>
+<colUsage columnID="77263195-8924-A448-0230-11D04A20F107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE2D5A44-6B2F-ED4F-9A16-80B5001E866C" name="Relation_29_TIPO_TELEFONE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>7E071208-DEFC-FE01-6217-0DFB3766F327</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="139575FB-0EF7-BA2E-230C-411D1489FA8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D28220C-DAFA-EBD7-2673-BA0D4F8A1622" name="Relation_29_TELEFONE_FORNECEDOR_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>7E071208-DEFC-FE01-6217-0DFB3766F327</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77263195-8924-A448-0230-11D04A20F107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

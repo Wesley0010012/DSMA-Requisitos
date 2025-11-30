@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7DFE843-DBAE-7592-8A26-1F86FE344261" name="UNIDADE_MEDIDA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>28FA22AB-EF0C-CBA8-A798-CF746CE62FAC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UNM_ID" id="0A4377F6-A2BD-C56F-278E-075BA6966242">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>246E41F9-6084-D999-6914-9D5B57C01110</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_NOME" id="F257F89A-5D60-3D39-A0B2-6C30AC221E64">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>2675D570-88B5-B04D-248D-30DBFFEBA61B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_SIGLA" id="2FEDFA06-C537-04AF-954D-941B61A01FAD">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[SIGLA DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>4630BA32-87BB-0B92-DD92-E43936005FF5</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_TIPO" id="EB28DC11-6B89-FC39-FC62-A25FD64EF049">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>E4050414-578E-3A79-0C71-2873581B4058</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_FATOR_CONVERSAO" id="80350D3D-4144-0FF3-BD0F-61FBACAB1D31">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[FATOR DE CONVERSÃO DECIMAL DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>48A0BD2F-0F98-B676-5B47-58E0E1E6F21D</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_ATIVO" id="71BDA22C-B42E-1FA0-A7E9-5B9F2ACC4740">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE PERSISTÊNCIA ATIVA DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>B2A04BD1-CEAD-C37E-C51F-11C08B14AAA6</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_CRIADO_EM" id="3B1043E2-44FE-8DD9-DE03-5D7B55803A49">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>65259DBA-6CA7-F1E2-FAEB-AAE2908543B8</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNM_ATUALIZADO_EM" id="CB38CFA3-71BE-E276-9449-4F6B8B822B97">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DA UNIDADE DE MEDIDA]]></commentInRDBMS>
+<generatorID>3110B69F-6181-B2C0-D547-0C804BED9B02</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_LABORATORIAL_ITEM_LABORATORIAL_ID" id="37A93461-A820-7E9E-62B3-D3375D213DAF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC9E90AE-C05B-131E-1C0E-F911564DBEFF" referredColumn="9C65FDAA-3324-C41E-3070-3E6A44574957"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13FAEE3A-F967-308F-0A7C-B02362D8C76D" name="UNIDADE_MEDIDA_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<generatorID>009F03F1-D1B5-EF6B-00F9-B8A382A35AEB</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A4377F6-A2BD-C56F-278E-075BA6966242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B53CE967-42B1-B198-DB53-3E1A3BB7527E" name="UNIDADE_MEDIDA_ITEM_LABORATORIAL_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>E1D81DF8-BD4D-6559-F892-C2880659FE1A</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A93461-A820-7E9E-62B3-D3375D213DAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D4C314E-5B17-6357-7927-1DF07EA048EB" containerWithKeyObject="16681821-1731-AB59-BC60-6025BBB38AD9" localFKIndex="8908C804-7724-2189-EBED-18C9B304E507" name="RELATORIO_ETAPA_ETAPAS_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>21257155-936A-CC2E-AE78-5EBF99B63485</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>ETAPAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62E5BAFA-6534-36CE-8D18-4078615B338B</referredTableID>
+<keyObject>9359423A-5A1B-8698-3BD5-BBA1E747871A</keyObject>
+<referredKeyID>9359423A-5A1B-8698-3BD5-BBA1E747871A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ETP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

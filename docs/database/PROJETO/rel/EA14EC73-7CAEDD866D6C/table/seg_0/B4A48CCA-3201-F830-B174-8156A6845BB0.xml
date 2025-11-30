@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4A48CCA-3201-F830-B174-8156A6845BB0" name="ENDERECO_CLIENTE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>2AE4C79B-B080-FFF8-C893-1ACEB5383387</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENC_ID" id="DEA54EC4-5A9A-9294-0612-15A8B0DF7E0B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO ENDEREÇO DO CLIENTE]]></commentInRDBMS>
+<generatorID>5F988141-24C7-8B89-DD86-266D6B57B327</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_PAIS" id="33CAD764-293B-FB4F-0370-239B1F3D50B4">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[PAÍS DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>73F473AC-FF5C-61B6-1D9B-C3451AA29DA7</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_ESTADO" id="7D407793-B3E3-5D63-D0F6-B3E8F57C1BFF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>D9E1C81B-AB9E-DE1A-8FDB-524F0AD1504C</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_CIDADE" id="CE8C6E7C-DBED-8ABA-1E54-C6457370C1CA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CIDADE DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>87D64BEC-2906-2729-417A-586E778A2A8E</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_CODIGO_POSTAL" id="9EF50629-D4DB-0D3E-6305-B6BAB0C3EC3B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO POSTAL DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>B88C4F5F-A220-8B95-6076-C6E7410ACFF6</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_LOGRADOURO" id="68AF29F2-7AEE-1DAA-207D-040DFC108FCF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[LOGRADOURO DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>0FC6A388-C61E-CB69-177B-D1F05A08D1F2</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_NUMERO" id="5D5682E0-CE1A-0B07-ABEB-A25C22A629F8">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÚMERO RESIDENCIAL DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>19FDCFFA-62AC-514D-0187-5C6BACB2030E</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_COMPLEMENTO" id="F96244E1-48F1-85AA-326F-51387A838F8C">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[COMPLEMENTO DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>04BD7556-3231-6776-7ED8-B4C2775C43E8</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_BAIRRO" id="025743DA-8F72-C5A3-F441-82F930D25405">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[BAIRRO DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>D6092769-7684-B59D-3FCD-30EB9CB8A265</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_ATIVO" id="EA2E2D4A-802A-7257-272F-1E6C79D7DA0B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO ENDEREÇO DO CLIENTE]]></commentInRDBMS>
+<generatorID>17185E58-2A4E-FAF4-E8AA-62919AE1EB47</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_CRIADO_EM" id="DA8AEB79-7DA5-1197-E2B1-E3E2F337A9C9">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>18693FFE-85F4-0F6D-5810-9B151BDE86C9</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENC_ATUALIZADO_EM" id="85493071-0309-BC0E-D4D8-B0C8E72A3FE1">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO ENDEREÇO]]></commentInRDBMS>
+<generatorID>584DB686-3A2D-8A71-A5D2-BAE321510E62</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_CLI_ID" id="D5A97E19-A135-3A75-386C-E44F12C3EFAF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>015E0E7C-60F0-09C7-3D84-93ECA00C7110</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DE2909E-6A1C-4C75-7485-6B60D8ECFB99" referredColumn="F476F7FE-5E53-3D1A-5D5C-F5CE8F74712B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="281B35BF-85BE-829C-C86C-7861EF74D3A8" name="ENDERECO_CLIENTE_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>D30AF7D9-1ADC-DA9C-DE79-18EC742BC3BD</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEA54EC4-5A9A-9294-0612-15A8B0DF7E0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="649F84A0-4597-FD0E-B2E6-590B8DC9D425" name="ENDERECO_CLIENTE_CLIENTE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>9B07669A-49F9-6419-6247-BD96A470A3BC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A97E19-A135-3A75-386C-E44F12C3EFAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBA9FD70-65DF-FCA9-CAAF-6787AEDAF42A" name="LOTE_ITEM_LABORATORIAL">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>40D9D8AE-DFBD-CEB1-FA0B-F494051D7F73</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LIL_ID" id="5F00449F-CE5A-BF08-1A8D-1BCACC709D38">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>00BEF85E-45AD-0277-F143-C83965554899</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_CODIGO" id="6CAFEA53-6562-8A4C-9E4D-CCCA55F668A7">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>7BFFA63E-A521-8ED5-8DC5-ADCBF26B9CC4</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_QUANTIDADE" id="6167FA22-C129-D5D4-B08C-953C06E660EF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>498CE399-022F-0803-BA6D-3255119D2B2B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_DATA_VALIDADE" id="AAEF55B5-2DB2-4805-B328-8ACB4DED10CF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>703C4662-35C2-02CF-01B4-CC03E49317C9</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_PRECO_COMPRA" id="99E85EE8-D4FE-ED95-250C-D5D0FF8DF358">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>4ADCDB84-7391-1AA5-AA35-C0F607FB1744</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_DATA_ENTRADA" id="963C37C6-81E4-C088-6380-1468E48C0126">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>6C0C07B0-D158-AEF1-CCC4-8890A362B7CB</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_ATIVO" id="0A242050-5EC0-8270-D9EC-226E42EE1D69">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>3BFB347A-7454-934B-7EBF-71883CBE0B90</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_CRIADO_EM" id="EB64550B-249F-619A-6EC4-09C54D5A0B30">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>D938605B-8B78-8C27-3167-109115366D72</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIL_ATUALIZADO_EM" id="4CEE6DE9-EAA8-8EFF-DF88-A06E61A15B58">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>8190E39B-2BE6-0234-A852-604F8B07563F</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_LABORATORIAL_ITEM_LABORATORIAL_ID" id="0C9DE063-B726-3D0D-E0C5-253FDCD854C8">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3AC9696-61EB-7F44-BA8F-152562E7DF24" referredColumn="9C65FDAA-3324-C41E-3070-3E6A44574957"/>
+</associations>
+</Column>
+<Column name="FORNECEDOR_FORNECEDOR_ID" id="B4EB869A-0CA3-5564-1893-6BEE30157FA5">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C24FD38-DE57-51EC-7F69-50E6BAEC147A" referredColumn="1701878B-DECF-30A8-16A6-7AA8186BE686"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="210D6E69-398C-40A9-1FDB-AF2FD4A4A970" name="LOTE_ITEM_LABORATORIAL_ITEM_LABORATORIAL_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>02FA5AD1-D589-040A-1810-BB2AEA0C4D60</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C9DE063-B726-3D0D-E0C5-253FDCD854C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54F14859-CCB6-5A1E-ECD8-50787B5C2059" name="LOTE_ITEM_LABORATORIAL_FORNECEDOR_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<generatorID>437788B7-2333-CE89-E533-FBC8F812F49A</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EB869A-0CA3-5564-1893-6BEE30157FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

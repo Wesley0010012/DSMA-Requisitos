@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C5ED1A4-642C-8E27-7A52-6FB7FE1A5A24" name="TELEFONE_PARCEIRO">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TLC_ID" id="FDFCF4EC-F444-9F71-4717-4FC80CEA0C31">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO TELEFONE DO CLIENTE]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TLC_NUMERO" id="D1923F34-07AF-415E-F24D-0A1139254763">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÚMERO DO TELEFONE]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TLC_ATIVO" id="05993203-9C27-8299-4156-CAE2F8C54358">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO TELEFONE DO CLIENTE]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TLC_CRIADO_EM" id="5B95FA04-92E1-F679-1F1C-4B8FCC55AA89">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO NÚMERO DE TELEFONE]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TLC_ATUALIZADO_EM" id="08D2845B-73A3-985B-CA4A-FD84EFEBC90D">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DA ÚLTIMA ATUALIZAÇÃO DO TELEFONE]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLI_ID" id="A58A0DCD-7088-2EDA-5CC6-7C0C1DBFEA3B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<generatorID>17FB8D2A-7EDA-8FA0-4DE0-96E2ACF71ACC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2818AE8-5F1B-F574-23F3-6726A379E732" name="TELEFONE_CLIENTE PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:02:42 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDFCF4EC-F444-9F71-4717-4FC80CEA0C31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

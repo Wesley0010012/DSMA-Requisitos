@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4281CB58-CF5B-BAF9-ACD2-CF7CF54A1913" name="MATRIZ">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>2D081A85-9C23-D99C-38E6-BB63C366EE66</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAT_ID" id="586AE762-A388-73B3-2D43-52D848083247">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DA AMOSTRA]]></commentInRDBMS>
+<generatorID>48215A55-731A-D5F4-6CC1-1B123D91C295</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_ASSINATURA" id="47C7ADEC-008C-6B50-0390-3C7660C42041">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ASSINATURA DA AMOSTRA]]></commentInRDBMS>
+<generatorID>F2344080-3F72-84E5-FC16-5E01D7AB8EE2</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_ATIVO" id="7012CFB6-FEF5-2CB1-B35B-781D9DC0B6C4">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DA AMOSTRA]]></commentInRDBMS>
+<generatorID>F85D2EDB-6F2C-5B12-59C0-BFDB83047881</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_CRIADO_EM" id="9E2D4425-67C6-853C-8B62-2F9C2AF2E64B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DA AMOSTRA]]></commentInRDBMS>
+<generatorID>8F6C77B7-B527-53B6-86EB-6906DEA9ABFC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_ATUALIZADO_EM" id="FFA129ED-6C33-DFDB-A217-E3F6FC05FA51">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DA AMOSTRA]]></commentInRDBMS>
+<generatorID>64D9B16E-24E0-9F9D-BE68-13E430212924</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOSTRA_AMT_ID" id="40C6015A-595C-674F-2EB3-A132C73BC962">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>796924BE-7BDD-16C1-6011-62F98119D34A</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F12FC85-1574-780A-4D7E-2E39BE263947" referredColumn="B3186466-43C6-45EC-068E-E1432A0302EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83E5C4C3-6845-8632-3A5A-F39883D8358F" name="MATRIZ_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>ACDF6073-4F1F-1D08-8E57-62986135C953</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="586AE762-A388-73B3-2D43-52D848083247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="170169D0-74BF-2917-1D27-A811384A1382" name="MATRIZ_AMOSTRA_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>F08675B6-9F06-D80B-2C8F-94FECE9718AA</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C6015A-595C-674F-2EB3-A132C73BC962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

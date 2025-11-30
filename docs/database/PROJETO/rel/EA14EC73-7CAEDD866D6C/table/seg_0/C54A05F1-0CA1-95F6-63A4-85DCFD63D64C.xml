@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C54A05F1-0CA1-95F6-63A4-85DCFD63D64C" name="CHAVE_PIX_CLIENTE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>8864B527-CE15-4772-21BA-1F539BB49DF7</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPC_ID" id="9E706C5B-7C33-9F9F-9EC3-D8C381486672">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>C879CAFF-F59D-7C4B-13A1-14FCBCDE75C1</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPC_TIPO_CHAVE" id="1027ED2F-2712-D627-1C52-10BBF1E73249">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>4B4CEC4D-C2BE-5D8E-44ED-03F65B625ADA</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPC_CHAVE" id="9463C185-D16B-9EEF-8DCE-3BE291BF62F4">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>BA01BFC8-3AA1-D099-F45D-2F90A6AECF00</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPC_ATIVO" id="63599403-E43D-4EF6-A035-977BE2E95254">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>E45BA6B2-94EA-C824-EF94-0DE0E5F7C4BC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPC_CRIADO_EM" id="94A03542-E777-E11C-477D-159E64D65FB5">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>A8E885E3-D30B-19D0-51DE-12A12CF6ABD7</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPC_ATUALIZADO_EM" id="15B78830-07CF-D310-AB3B-F2FBF6828FB7">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>F7A373E0-C761-15B3-F17C-8C0CFD5F17BC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_CLI_ID" id="8A44B9B8-50BE-D0B2-AA46-BF14831BE187">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>F32F2CED-B987-FC64-5B24-166C5B26517D</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D63A4946-0413-8238-E00A-8EF5793E13FC" referredColumn="F476F7FE-5E53-3D1A-5D5C-F5CE8F74712B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03685386-7436-5919-C698-28E7DB348386" name="CHAVE_PIX_CLIENTE_CLIENTE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>B92B67B4-A082-A8B1-8202-1474D6E44A1A</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A44B9B8-50BE-D0B2-AA46-BF14831BE187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

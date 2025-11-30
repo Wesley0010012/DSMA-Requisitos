@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB8AFCFF-598E-0362-B685-BAD1ABFCCE8D" containerWithKeyObject="D575BFA9-9A72-3CCF-1751-D9380126C0AC" localFKIndex="9A8EE365-551F-7B52-421C-88103D829C3C" name="PARCEIROS_ATIVIDADE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>DAD32FDF-137B-4B40-AEC5-63A7615FF28B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>ATIVIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>382EDC18-3485-904C-17D2-40F87430751C</referredTableID>
+<keyObject>1EB6E1E2-1B87-07B0-5ECE-7E86977E3C50</keyObject>
+<referredKeyID>1EB6E1E2-1B87-07B0-5ECE-7E86977E3C50</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ATV_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

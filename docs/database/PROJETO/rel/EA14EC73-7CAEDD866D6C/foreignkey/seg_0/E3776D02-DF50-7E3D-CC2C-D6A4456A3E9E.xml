@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3776D02-DF50-7E3D-CC2C-D6A4456A3E9E" containerWithKeyObject="C10BC32E-0A3D-ACDA-1131-D9E1C3933980" localFKIndex="B212EB8B-929E-D4E4-D6B2-DF13C0328F86" name="Relation_3_PERMISSAO_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>B98BC8FC-4C23-5BD8-4534-4DC0E96E8BA1</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>PERMISSAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC1304D3-760F-B7B8-1B94-8B4205B36A0D</referredTableID>
+<keyObject>C4291ADC-057B-0759-E043-6AF95824DCC0</keyObject>
+<referredKeyID>C4291ADC-057B-0759-E043-6AF95824DCC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PMS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

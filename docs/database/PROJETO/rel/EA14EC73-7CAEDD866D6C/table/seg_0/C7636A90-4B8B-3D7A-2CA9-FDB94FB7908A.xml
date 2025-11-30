@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7636A90-4B8B-3D7A-2CA9-FDB94FB7908A" name="CUSTO_SERVICO">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>1B54F854-212C-1E27-C4C8-29A972ADD683</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTO_SERVICO_ID" id="FFBF84BC-2E78-C5CC-8F44-E31836D7B127">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="SERVICO_SVC_ID" id="6568A982-364B-3C7B-402C-9AF0CD43EC76">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<generatorID>833AE511-75F3-015C-455E-6FEEBE275CBD</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CFE4C5D-50AD-8F6A-FC9C-0680963D5856" referredColumn="2080B9BF-D2A9-5F3A-3D7D-08F6578C2A03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31B61109-A706-E279-9A0C-1764AF0392C9" name="CUSTO_SERVICO_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FFBF84BC-2E78-C5CC-8F44-E31836D7B127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="694DBE4A-F6CE-982B-FBCC-7BBAE7FEF096" name="CUSTO_SERVICO__IDX">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9108CB22-6876-AE13-5203-1447506FA54B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6568A982-364B-3C7B-402C-9AF0CD43EC76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D5E8581-782B-D9FB-20A3-0B78EFDD37BF" name="CUSTO_SERVICO_SERVICO_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<generatorID>9108CB22-6876-AE13-5203-1447506FA54B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6568A982-364B-3C7B-402C-9AF0CD43EC76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

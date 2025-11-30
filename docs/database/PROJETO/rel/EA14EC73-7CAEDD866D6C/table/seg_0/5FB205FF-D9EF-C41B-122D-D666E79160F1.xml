@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FB205FF-D9EF-C41B-122D-D666E79160F1" name="Relation_11">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATIVIDADE_ATV_ID" id="C3D5902F-A7E0-B41B-87F0-20ED1C7A6CDB">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC04AE75-7A1F-3A97-07AE-811CE0EF302E" referredColumn="3FCBF912-906E-0907-76D1-E44650166266"/>
+</associations>
+</Column>
+<Column name="AMOSTRA_AMT_ID" id="3C2C028E-0CB9-5480-408D-789D82979F38">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C1B4D13-B2E3-9F96-F316-0C84FF937E8B" referredColumn="B3186466-43C6-45EC-068E-E1432A0302EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBE7173C-DCA0-73F9-1CD1-D3F78DC49B5F" name="Relation_11_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3D5902F-A7E0-B41B-87F0-20ED1C7A6CDB"/>
+<colUsage columnID="3C2C028E-0CB9-5480-408D-789D82979F38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC7742DC-BBD7-CFF9-0C91-7BE89C4E30AD" name="Relation_11_ATIVIDADE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>65F98FA0-7A0F-9663-73A1-DB59C0AD07E9</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3D5902F-A7E0-B41B-87F0-20ED1C7A6CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDB14039-6A45-A611-96A6-9709CCDC8C82" name="Relation_11_AMOSTRA_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>65F98FA0-7A0F-9663-73A1-DB59C0AD07E9</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2C028E-0CB9-5480-408D-789D82979F38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

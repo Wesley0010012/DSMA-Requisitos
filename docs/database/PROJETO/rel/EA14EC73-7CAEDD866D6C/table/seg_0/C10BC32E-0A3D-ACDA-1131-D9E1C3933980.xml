@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C10BC32E-0A3D-ACDA-1131-D9E1C3933980" name="Relation_3">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERFIL_PRF_ID" id="C5C1A884-977A-DEAB-3A02-01E53F1E124F">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88CDF5D3-0FF4-7180-D2C1-EAAAD0CCDAC8" referredColumn="0313EC36-AE17-B979-7B0C-ED1FC90FDC0C"/>
+</associations>
+</Column>
+<Column name="PERMISSAO_PMS_ID" id="D9E8CD31-3CA0-68D8-8F64-8F276E0DA293">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3776D02-DF50-7E3D-CC2C-D6A4456A3E9E" referredColumn="FFB1C4D6-43C9-F852-E42B-EBF8A941B691"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBE71B1C-6B0B-9079-F1DB-ADFCA44F30EC" name="Relation_3_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C1A884-977A-DEAB-3A02-01E53F1E124F"/>
+<colUsage columnID="D9E8CD31-3CA0-68D8-8F64-8F276E0DA293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33441835-0627-4F0F-6FAF-705BD56D154E" name="Relation_3_PERFIL_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>B98BC8FC-4C23-5BD8-4534-4DC0E96E8BA1</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C1A884-977A-DEAB-3A02-01E53F1E124F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B212EB8B-929E-D4E4-D6B2-DF13C0328F86" name="Relation_3_PERMISSAO_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>B98BC8FC-4C23-5BD8-4534-4DC0E96E8BA1</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E8CD31-3CA0-68D8-8F64-8F276E0DA293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

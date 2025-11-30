@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6C1B4D13-B2E3-9F96-F316-0C84FF937E8B" containerWithKeyObject="5FB205FF-D9EF-C41B-122D-D666E79160F1" localFKIndex="CDB14039-6A45-A611-96A6-9709CCDC8C82" name="Relation_11_AMOSTRA_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>65F98FA0-7A0F-9663-73A1-DB59C0AD07E9</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>AMOSTRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE3F4A8B-CB73-214D-A889-33796569B30D</referredTableID>
+<keyObject>11CC8C5F-C654-199D-6AA5-FADBC520C16F</keyObject>
+<referredKeyID>11CC8C5F-C654-199D-6AA5-FADBC520C16F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AMT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

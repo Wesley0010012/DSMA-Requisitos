@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0565AF3-EE35-6DEA-8F1F-FDD9C72B93F4" name="TELEFONE_CLIENTE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>B4F0B695-04ED-670E-0E96-FD9022EEDB3D</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TLC_ID" id="6B259F8F-5B97-54E6-227A-E7BCA9A44C7F">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO TELEFONE DO CLIENTE]]></commentInRDBMS>
+<generatorID>760DC9F0-D3FD-8185-9BC3-58054F72FCBF</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLC_NUMERO" id="F20D39A3-87F4-85F7-5460-CAD417C874C5">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÚMERO DO TELEFONE]]></commentInRDBMS>
+<generatorID>416F7362-C5FA-778F-1849-05FE841024BB</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLC_ATIVO" id="2B967101-2C0D-F4B5-089E-5CB6FC2DB4FE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO TELEFONE DO CLIENTE]]></commentInRDBMS>
+<generatorID>FE08937D-CE0B-B358-4D60-AA04F422D13F</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLC_CRIADO_EM" id="8B57FCAC-639A-BBFE-3C94-99591D7F3435">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO NÚMERO DE TELEFONE]]></commentInRDBMS>
+<generatorID>8413656C-F622-B87C-B94F-AF482414161B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TLC_ATUALIZADO_EM" id="028B43D7-E73F-F55E-E246-91635266D3F3">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DA ÚLTIMA ATUALIZAÇÃO DO TELEFONE]]></commentInRDBMS>
+<generatorID>990E27CD-E52C-CC02-6661-89BD96BB62F0</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_CLI_ID" id="F2957996-9DDC-CB11-243E-00B79775E435">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>FB752386-46A8-0627-194E-66173F48119F</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17BF0719-3EB2-8BCC-D538-41524CF7D0A6" referredColumn="F476F7FE-5E53-3D1A-5D5C-F5CE8F74712B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BA72E40-5D6A-B446-A85D-5CF1FAB59EA5" name="TELEFONE_CLIENTE_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>7D62B920-4E03-F363-2B3D-D43AB20B8BCE</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B259F8F-5B97-54E6-227A-E7BCA9A44C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="728C3685-6E1D-AD4B-98D2-1961B591F06A" name="TELEFONE_CLIENTE_CLIENTE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>17FB8D2A-7EDA-8FA0-4DE0-96E2ACF71ACC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2957996-9DDC-CB11-243E-00B79775E435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0237C0E7-45FA-A986-C73F-FB555241883F" name="SERVICO">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>638BBEA7-D532-D526-A8E7-9FECAFBE5525</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SVC_ID" id="2080B9BF-D2A9-5F3A-3D7D-08F6578C2A03">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO SERVIÇO]]></commentInRDBMS>
+<generatorID>3B8EB93A-628B-8526-90A0-AE441F1F81F2</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SVC_ORDEM" id="221E82A1-A7D0-1DD3-308E-4C1D2121A177">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA ORDEM DE SERVIÇO]]></commentInRDBMS>
+<generatorID>610B8C2E-6D59-7C33-EBDD-9A54C81E9B27</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SVC_ATIVO" id="1E942F3A-A8C2-61C9-75CD-A59971FF26EB">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO SERVIÇO]]></commentInRDBMS>
+<generatorID>76885DEB-50FD-4672-25AE-69812228DEF6</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SVC_CRIADO_EM" id="0C54D938-3804-1C1A-3EAF-BE2A2F9128A0">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO SERVIÇO]]></commentInRDBMS>
+<generatorID>C280D6D2-D451-FD99-F695-7A40E0B2E1ED</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SVC_ATUALIZADO_EM" id="62AEEEF6-630B-BF0F-20B6-43A6E4AF56BA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO SERVIÇO]]></commentInRDBMS>
+<generatorID>93A59C8E-86B3-229E-F5C9-456564EE89D1</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_CLI_ID" id="0B5720E2-8E38-9673-4290-B3AEF8FEA4B5">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>2C822759-01C0-2015-7AD2-6A122FD58DFC</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F8BDC01-333E-B689-3A85-FF541E1FC97C" referredColumn="F476F7FE-5E53-3D1A-5D5C-F5CE8F74712B"/>
+</associations>
+</Column>
+<Column name="SVC_CUSTO_FINAL" id="AA710B63-E6AF-1FD7-8160-259A177F460E">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR FINAL DE CUSTO DO SERVIÇO
+]]></commentInRDBMS>
+<generatorID>4B1AB8AD-153D-0FA1-BBA9-B33C92A2B238</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTO_SERVICO_CUSTO_SERVICO_ID" id="8D5AEF12-0312-E11C-3845-632224EFF0A6">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1719CB91-C0A2-08F9-2102-B860D6CCD524" referredColumn="FFBF84BC-2E78-C5CC-8F44-E31836D7B127"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12057097-785D-9E08-A5ED-336CC1E2CFA3" name="SERVICO_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>C725BC33-74CF-4722-61B6-F1284EF8F398</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2080B9BF-D2A9-5F3A-3D7D-08F6578C2A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7216425F-ACF3-9472-C091-BAFA39F5C678" name="SERVICO__IDX">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9108CB22-6876-AE13-5203-1447506FA54B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8D5AEF12-0312-E11C-3845-632224EFF0A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47A6712E-A7F1-14DB-C85F-BFD68FF0011E" name="SERVICO_CLIENTE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>A4D01EFE-9775-8661-F649-0F28BDF1CDC5</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5720E2-8E38-9673-4290-B3AEF8FEA4B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B3AC002-6131-2EDD-B1B8-D1C190ADC98E" name="SERVICO_CUSTO_SERVICO_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-30 00:36:59 UTC</createdTime>
+<generatorID>9108CB22-6876-AE13-5203-1447506FA54B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D5AEF12-0312-E11C-3845-632224EFF0A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

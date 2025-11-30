@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="382EDC18-3485-904C-17D2-40F87430751C" name="ATIVIDADE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>EFEAF45F-4081-BC4A-9B23-552A68695A51</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATV_ID" id="3FCBF912-906E-0907-76D1-E44650166266">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DA ATIVIDADE]]></commentInRDBMS>
+<generatorID>83AEA056-6138-778B-EE8A-3E329583D40D</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATV_ASSINATURA" id="5F66D840-010F-7399-3891-8FF1722E3AD4">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ASSINATURA DA ATIVIDADE]]></commentInRDBMS>
+<generatorID>613C0E88-EB34-8DE0-6E4C-37D45D99900E</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICO_SVC_ID" id="50863F71-7A70-206B-95A1-455C6E103CDE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>AFA69484-0EC3-DC5F-D360-5ABB1266B020</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="864A02D0-46F8-528B-968B-1B71201C1ED6" referredColumn="2080B9BF-D2A9-5F3A-3D7D-08F6578C2A03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EB6E1E2-1B87-07B0-5ECE-7E86977E3C50" name="ATIVIDADE_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>FA650213-962F-3AE0-1F03-B50D0CD4294F</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FCBF912-906E-0907-76D1-E44650166266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5057B4C-323B-B4E4-180D-B1A4745DF838" name="ATIVIDADE_SERVICO_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>95A81F2E-B2E1-BF8E-C0D0-762E6C7CB342</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50863F71-7A70-206B-95A1-455C6E103CDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -96,7 +96,38 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SVC_CUSTO_FINAL" id="4B1AB8AD-153D-0FA1-BBA9-B33C92A2B238">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 20:45:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR FINAL DE CUSTO DO SERVIÇO
+]]></commentInRDBMS>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C725BC33-74CF-4722-61B6-F1284EF8F398" name="SERVICO PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 20:45:54 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B8EB93A-628B-8526-90A0-AE441F1F81F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -40,6 +40,21 @@
 <dataTypeSize>60 CHAR</dataTypeSize>
 <ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="SVC_ID" id="AFA69484-0EC3-DC5F-D360-5ABB1266B020">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 20:46:17 UTC</createdTime>
+<generatorID>95A81F2E-B2E1-BF8E-C0D0-762E6C7CB342</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<engineerTo>
+<item key="EA14EC73-3404-5151-3B39-7CAEDD866D6C" value="true"/>
+</engineerTo>
+<referedAttribute>3B8EB93A-628B-8526-90A0-AE441F1F81F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FA650213-962F-3AE0-1F03-B50D0CD4294F" name="ATIVIDADE PK">

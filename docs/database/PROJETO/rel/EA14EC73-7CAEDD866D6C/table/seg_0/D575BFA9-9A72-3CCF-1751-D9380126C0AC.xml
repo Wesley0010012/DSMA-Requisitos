@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D575BFA9-9A72-3CCF-1751-D9380126C0AC" name="PARCEIROS">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>97D91EFA-ECCF-DA20-D3EA-C1F87B031C7D</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATIVIDADE_ATV_ID" id="2AF14603-5E7A-0DA5-EDC0-0C2CAE695968">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>2ED64050-463C-F70A-31D7-D910770424C2</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB8AFCFF-598E-0362-B685-BAD1ABFCCE8D" referredColumn="3FCBF912-906E-0907-76D1-E44650166266"/>
+</associations>
+</Column>
+<Column name="PARCEIROS_ID" id="F3A8231C-40BA-483A-4E9B-9575EF84FF20">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8AB053B-1A2A-8792-F1EF-CE132F43C520" name="PARCEIROS_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F3A8231C-40BA-483A-4E9B-9575EF84FF20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A8EE365-551F-7B52-421C-88103D829C3C" name="PARCEIROS_ATIVIDADE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>DAD32FDF-137B-4B40-AEC5-63A7615FF28B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF14603-5E7A-0DA5-EDC0-0C2CAE695968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

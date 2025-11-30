@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC9E90AE-C05B-131E-1C0E-F911564DBEFF" containerWithKeyObject="D7DFE843-DBAE-7592-8A26-1F86FE344261" localFKIndex="B53CE967-42B1-B198-DB53-3E1A3BB7527E" name="UNIDADE_MEDIDA_ITEM_LABORATORIAL_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>E1D81DF8-BD4D-6559-F892-C2880659FE1A</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>ITEM_LABORATORIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31AD8BC7-11FE-21A6-055C-1DCC08C39A2A</referredTableID>
+<keyObject>9D349B49-A10D-BB99-FFC4-85BE721A855C</keyObject>
+<referredKeyID>9D349B49-A10D-BB99-FFC4-85BE721A855C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ITEM_LABORATORIAL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

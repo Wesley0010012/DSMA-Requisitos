@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9662038-2C15-3B58-629E-51F663D9EE1D" name="CARTAO_CREDITO_CLIENTE">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>BE52A13D-7605-F115-EC82-D8E2E74DB624</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CCC_ID" id="AFA42D5B-472F-1958-511E-0320EFD1F254">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO CARTÃO DE CRÉDITO DO CLIENTE]]></commentInRDBMS>
+<generatorID>7B8D5ED6-0228-868D-EAC3-143E187967FD</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_NUMERO" id="83328A44-66A8-8424-79B3-928F67A6992F">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÙMERO DO CARTÃO DE CRÉDITO (MASCARADO)]]></commentInRDBMS>
+<generatorID>DAD02840-1DD5-89E6-6389-28CCBD5DD763</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_BANDEIRA" id="DFD7C5AF-7463-DF3C-6664-C0DD8ADECEC4">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[BANDEIRA DO CARTÃO DE CRÉDITO]]></commentInRDBMS>
+<generatorID>6000FABA-E4E2-0487-C22C-E5BBA0084481</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_VALIDADE" id="B14010F4-35F5-655B-E867-81DAC7F3F860">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE VALIDADE DO CARTÃO DE CRÉDITO]]></commentInRDBMS>
+<generatorID>FC69AB21-BFB8-CDDC-19BF-E893A0BCE2D0</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_TOKEN" id="88BF0EA2-819B-872C-7FAF-7317DCD3B8DF">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[TOKEN DE USO PARA CONFIRMAÇÃO DE TRANSAÇÃO DE PAGAMENTO]]></commentInRDBMS>
+<generatorID>2020A462-2830-F9B0-CEDF-9197E0DD48D7</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_ATIVO" id="BE92DCFF-9AC4-C0AD-EC5C-485EA636634E">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE PERSISTÊNCIA ATIVA DO CARTÃO DE CRÉDITO DO CLIENTE]]></commentInRDBMS>
+<generatorID>27084DF3-2178-7D39-0878-40EC1C0FD28E</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_CRIADO_EM" id="DF242F7C-FB61-BFEC-FFCC-A44138722F4A">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO CARTÃO DE CRÉDITO]]></commentInRDBMS>
+<generatorID>52E70A5A-CD1F-0573-7812-E2C1BA8E1CFF</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCC_ATUALIZADO_EM" id="AA2A38BC-CB78-EFA0-A764-D13E2CD2B8F4">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO CARTÃO DE CRÉDITO]]></commentInRDBMS>
+<generatorID>A74195D8-2FB1-DFE0-607E-1B4F31108557</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_CLI_ID" id="A35A5C0E-A22F-6437-EFB2-B1651345F561">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>0F06BFCB-55CD-F2EA-EAAB-14AF9EA2AB59</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="308EBDF9-7A5C-7AF1-71DB-0F910B121DE2" referredColumn="F476F7FE-5E53-3D1A-5D5C-F5CE8F74712B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA7792E-67BC-CFF0-DDEF-56DF6F2A2649" name="CARTAO_CREDITO_CLIENTE_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>A0278B10-B895-45D6-8F3D-B9289750E55B</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA42D5B-472F-1958-511E-0320EFD1F254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4CCC247-6A51-C559-ECA7-1C43D79E8F54" name="CARTAO_CREDITO_CLIENTE_CLIENTE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>87B64C02-7CF8-7CBD-B2AF-C18F3282A119</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A35A5C0E-A22F-6437-EFB2-B1651345F561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

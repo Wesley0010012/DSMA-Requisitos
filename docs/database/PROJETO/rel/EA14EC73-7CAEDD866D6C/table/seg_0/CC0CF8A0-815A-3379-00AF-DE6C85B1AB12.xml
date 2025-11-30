@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC0CF8A0-815A-3379-00AF-DE6C85B1AB12" name="ORCAMENTO">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>E071DC7D-7A60-1C8E-6E58-7B0C7540E370</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OCM_ID" id="5F5F7872-E1AC-E18B-B6B2-C925A3398318">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO ORÇAMENTO]]></commentInRDBMS>
+<generatorID>04BF7204-9BEF-B9A6-5E5B-08BDCD2DF297</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCM_VALOR" id="4D35FC26-6ABD-B0D1-5920-5986679C78EB">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR DO ORÇAMENTO]]></commentInRDBMS>
+<generatorID>F1F816E4-CFED-262B-BF00-1DDB5A103BC3</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCM_ATIVO" id="C434210E-0F72-8798-7CCD-E9C39C1D8D1F">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO ORÇAMENTO]]></commentInRDBMS>
+<generatorID>F4F8C7EB-158E-31D8-A894-FE11FAC486DF</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCM_CRIADO_EM" id="F498848B-8A2A-30CF-933E-04039CBBB692">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO ORÇAMENTO]]></commentInRDBMS>
+<generatorID>EC5285BF-2202-71B1-B36B-9CD24B5A8307</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCM_ATUALIZADO_EM" id="BE84032F-67BD-1F8E-9F9A-223D8803765B">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO ORÇAMENTO]]></commentInRDBMS>
+<generatorID>53AF8BCB-B38F-A4A5-5983-99E99B5EA1E7</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATIVIDADE_ATV_ID" id="758DEBF1-48CA-3727-D164-7D9967D69166">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>246E6059-AFEE-8D4F-1B79-2A9E1B9704B8</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1C8FB56-55C6-CFBA-DC6A-6ACBE09D5BF3" referredColumn="3FCBF912-906E-0907-76D1-E44650166266"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A94A4A1-759E-5CE5-B1B8-16B6797BE4BA" name="ORCAMENTO_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>FF8930F3-9917-95DA-4C20-DC9B45BB5FBD</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F5F7872-E1AC-E18B-B6B2-C925A3398318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC94F173-E8B2-78BA-1CB9-DC43200330D4" name="ORCAMENTO_ATIVIDADE_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>19F2CBFA-0EC5-860E-380C-90295A5A74F2</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="758DEBF1-48CA-3727-D164-7D9967D69166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

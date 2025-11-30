@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16681821-1731-AB59-BC60-6025BBB38AD9" name="RELATORIO_ETAPA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>C2590654-A48F-A824-4FC5-CA5AB7EE3A1C</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REP_ID" id="B3FEC8AB-AE09-91CE-923F-208E244E92D1">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO IDENTIFICADOR ÚNICO DO RELATÓRIO]]></commentInRDBMS>
+<generatorID>30183936-0FEC-C6C9-3A71-5D0F3B191CF6</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REP_CAMINHO" id="5EC7677D-072F-0324-964C-7AAA9424BCAA">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[CAMINHO DE RECURSO DO RELATÓRIO]]></commentInRDBMS>
+<generatorID>2B67AC26-0087-0AB7-BF4E-116DDDF8549F</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REP_ATIVO" id="289C687B-0249-0869-1C0A-769FEADBBCFC">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE REGISTRO ATIVO DO RELATÓRIO DE ETAPA]]></commentInRDBMS>
+<generatorID>F044BF27-6009-7370-03B2-5C3F5203EBD1</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REP_CRIADO_EM" id="4357F32B-EF1E-AF1B-F9AA-49A809F913B3">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE CRIAÇÃO DO RELATÓRIO DE ETAPA]]></commentInRDBMS>
+<generatorID>62708093-7004-604A-4DDA-2C64F379457D</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REP_ATUALIZADO_EM" id="1E7FA084-9017-47C4-17BD-D1887E0355D1">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DE ÚLTIMA ATUALIZAÇÃO DO RELATÓRIO DE ETAPA]]></commentInRDBMS>
+<generatorID>7928EF4C-36EF-3B9F-E0F5-B2D450A126D6</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ETAPAS_ETP_ID" id="913F8509-4857-C2B0-0C1C-2AC8706A4365">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>36F9A293-CB2D-5727-D6AF-32C7EA4D2470</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D4C314E-5B17-6357-7927-1DF07EA048EB" referredColumn="3B5008EF-6D67-0873-05F9-C700BEB3D1C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="067634E7-790C-DEF2-E9B5-FC0AB2214EB6" name="RELATORIO_ETAPA_PK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>33B4DD4B-37FF-F871-6BA4-AB7CD9716BC0</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FEC8AB-AE09-91CE-923F-208E244E92D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B471FF97-28BB-ECA9-229B-19F44562D572" name="RELATORIO_ETAPA__IDX">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>21257155-936A-CC2E-AE78-5EBF99B63485</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="913F8509-4857-C2B0-0C1C-2AC8706A4365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8908C804-7724-2189-EBED-18C9B304E507" name="RELATORIO_ETAPA_ETAPAS_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>21257155-936A-CC2E-AE78-5EBF99B63485</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="913F8509-4857-C2B0-0C1C-2AC8706A4365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

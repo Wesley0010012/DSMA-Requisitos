@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3AC9696-61EB-7F44-BA8F-152562E7DF24" containerWithKeyObject="DBA9FD70-65DF-FCA9-CAAF-6787AEDAF42A" localFKIndex="210D6E69-398C-40A9-1FDB-AF2FD4A4A970" name="LOTE_ITEM_LABORATORIAL_ITEM_LABORATORIAL_FK">
+<createdBy>wglau</createdBy>
+<createdTime>2025-11-29 21:10:56 UTC</createdTime>
+<generatorID>02FA5AD1-D589-040A-1810-BB2AEA0C4D60</generatorID>
+<ownerDesignName>PROJETO</ownerDesignName>
+<referredTableLongName>ITEM_LABORATORIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31AD8BC7-11FE-21A6-055C-1DCC08C39A2A</referredTableID>
+<keyObject>9D349B49-A10D-BB99-FFC4-85BE721A855C</keyObject>
+<referredKeyID>9D349B49-A10D-BB99-FFC4-85BE721A855C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ITEM_LABORATORIAL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
