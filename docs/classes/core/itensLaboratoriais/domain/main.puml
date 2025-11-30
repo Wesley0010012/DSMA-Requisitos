@@ -1,0 +1,37 @@
+@startuml "Domínio - Módulo de Itens Laboratoriais"
+
+abstract class IntIdEntity
+class UnidadeMedida
+
+abstract class ItemLaboratorial {
+    - id: Long
+    - nome: String
+    - descricao: String
+    - unidadeMedida: UnidadeMedida
+}
+
+class Insumo
+
+class Produto
+
+class LoteItemLaboratorial {
+    - id: Long
+    - codigoLote: String
+    - quantidade: Long
+    - dataValidade: Date
+    - precoCompra: Double
+    - dataEntrada: Date
+    - itemLaboratorial: ItemLaboratorial
+}
+
+ItemLaboratorial "1" --o "*" LoteItemLaboratorial
+
+Produto --|> ItemLaboratorial
+Insumo --|> ItemLaboratorial
+
+ItemLaboratorial "*" o-- "*" UnidadeMedida
+
+Lote --|> IntIdEntity
+ItemLaboratorial --|> IntIdEntity
+
+@enduml
